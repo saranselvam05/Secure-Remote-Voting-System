@@ -1,0 +1,111 @@
+/* Full Screen Background */
+.admin-container1 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(
+        135deg,
+        #0f172a,
+        #1e293b,
+        #3b82f6
+    );
+
+    font-family: "Poppins", sans-serif;
+}
+
+/* Login Card */
+.admin-card {
+    width: 420px;
+    padding: 40px;
+
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(12px);
+
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+
+    box-shadow:
+        0 8px 32px rgba(0, 0, 0, 0.3);
+
+    text-align: center;
+}
+
+/* Heading */
+.admin-title {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.admin-subtitle {
+    color: rgba(255,255,255,0.8);
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+/* Input Fields */
+.admin-input {
+    width: 100%;
+    padding: 14px;
+
+    margin-top: 15px;
+
+    border: none;
+    outline: none;
+
+    border-radius: 12px;
+
+    background: rgba(255,255,255,0.15);
+    color: white;
+
+    font-size: 15px;
+
+    box-sizing: border-box;
+}
+
+.admin-input::placeholder {
+    color: rgba(255,255,255,0.7);
+}
+
+.admin-input:focus {
+    background: rgba(255,255,255,0.25);
+    border: 1px solid #60a5fa;
+}
+
+/* Login Button */
+.admin-btn {
+    width: 100%;
+    padding: 14px;
+
+    margin-top: 25px;
+
+    border: none;
+    border-radius: 12px;
+
+    background: #2563eb;
+    color: white;
+
+    font-size: 16px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.admin-btn:hover {
+    transform: translateY(-2px);
+    background: #1d4ed8;
+    box-shadow: 0 6px 18px rgba(37,99,235,0.4);
+}
+
+/* Mobile */
+@media (max-width: 500px) {
+    .admin-card {
+        width: 90%;
+        padding: 30px;
+    }
+}

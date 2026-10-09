@@ -1,0 +1,154 @@
+body{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+background:#f4f6f9;
+}
+
+.admin-container{
+width:90%;
+margin:auto;
+padding:30px;
+}
+
+.admin-container h1{
+text-align:center;
+color:#2c3e50;
+margin-bottom:30px;
+}
+
+/* ADD CANDIDATE BOX */
+
+.add-box{
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+margin-bottom:40px;
+display:flex;
+gap:15px;
+flex-wrap:wrap;
+align-items:center;
+justify-content:center;
+}
+
+.add-box input{
+padding:10px;
+width:200px;
+border-radius:5px;
+border:1px solid #ccc;
+font-size:14px;
+}
+
+.add-box button{
+padding:10px 20px;
+background:#27ae60;
+color:white;
+border:none;
+border-radius:5px;
+cursor:pointer;
+font-size:15px;
+}
+
+.add-box button:hover{
+background:#219150;
+}
+
+/* TABLE */
+
+table{
+width:100%;
+border-collapse:collapse;
+background:white;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+margin-bottom:30px;
+/* border-radius: 20px; */
+border: 1px solid black;
+}
+
+table th{
+background:#34495e;
+color:white;
+padding:12px;
+}
+
+table td{
+padding:10px;
+text-align:center;
+border-bottom:1px solid #ddd;
+}
+
+table tr:hover{
+background:#f2f2f2;
+}
+
+table button{
+padding:6px 12px;
+background:#e74c3c;
+color:white;
+border:none;
+border-radius:4px;
+cursor:pointer;
+}
+
+table button:hover{
+background:#c0392b;
+}
+
+/* RESULT BUTTON */
+
+.result-btn{
+display:block;
+margin:auto;
+padding:12px 30px;
+background:#2980b9;
+color:white;
+border:none;
+border-radius:6px;
+font-size:16px;
+cursor:pointer;
+}
+
+.result-btn:hover{
+background:#1f6391;
+}
+
+/* RESULT CARDS */
+
+.result-box{
+margin-top:30px;
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+}
+
+.candidate-card{
+background:white;
+padding:20px;
+border-radius:10px;
+width:180px;
+text-align:center;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.candidate-card h3{
+color:#2c3e50;
+}
+
+.candidate-card p{
+font-size:18px;
+color:#27ae60;
+font-weight:bold;
+}
+table button:first-child{
+background:#f39c12;
+margin-right:8px;
+}
+
+table button:first-child:hover{
+background:#d68910;
+}
+
+.heading{
+    margin-top: 70px;
+}

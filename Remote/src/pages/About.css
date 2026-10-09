@@ -1,0 +1,59 @@
+.about-container {
+  height: 435px;
+  padding: 100px 20px 50px; /* navbar space + bottom space */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  background: linear-gradient(135deg, #1e3c72, #2a5298, #6fa8ff);
+  background-size: 100% 100%;
+  animation: gradientMove 8s ease infinite;
+
+  color: white;
+}
+
+.about-content {
+  max-width: 800px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 40px;
+  border-radius: 20px;
+
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  
+}
+
+.about-content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.about-content p {
+  font-size: 18px;
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
+.about-list {
+  margin-top: 25px;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.about-list li {
+  margin-bottom: 10px;
+  margin-left: 150px;
+  font-size: 16px;
+  line-height: 1.5;
+  position: relative;
+}
+
+/* Optional: custom bullet */
+.about-list li::marker {
+  color: #ffcc00;
+  font-size: 18px;
+}
